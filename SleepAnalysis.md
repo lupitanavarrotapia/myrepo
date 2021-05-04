@@ -1,4 +1,4 @@
-Project 1: Exploratory Data Analysis on Student Sleep
+Project 1: Exploratoryy Data Analysis on Student Sleep
 ================
 
 ## Lupita Navarro \| LGN282
