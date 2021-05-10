@@ -1,4 +1,5 @@
-Project 1: Exploratoryy Data Analysis on Student Sleep
+Project 1: Exploratory Data Analysis on Student Sleep and Online
+Learning
 ================
 
 ## Lupita Navarro \| LGN282
@@ -252,6 +253,96 @@ the dataset, "losingsleep’ did not contain other variables included in
 ‘StudentMH’, they were automatically filled in instead of left ‘NA’.
 This is a potential issue that could skew the data since it leads to
 multiple repeated responses/rows.*
+
+#### 3. Summary Statistics
+
+``` r
+#summary stats for dataset 1 
+summary(losingsleep)
+```
+
+    ##       Age        enoughsleep
+    ##  Min.   :14.00   No :150    
+    ##  1st Qu.:15.00   Yes:296    
+    ##  Median :16.00              
+    ##  Mean   :16.08              
+    ##  3rd Qu.:17.00              
+    ##  Max.   :18.00
+
+``` r
+#summary statistics for dataset 2
+summary(StudentMH2)
+```
+
+    ##       Age        Time spent on Online Class Rating of Online Class experience
+    ##  Min.   : 7.00   Min.   : 0.000             Length:1182                      
+    ##  1st Qu.:17.00   1st Qu.: 2.000             Class :character                 
+    ##  Median :20.00   Median : 3.000             Mode  :character                 
+    ##  Mean   :20.17   Mean   : 3.209                                              
+    ##  3rd Qu.:21.00   3rd Qu.: 5.000                                              
+    ##  Max.   :59.00   Max.   :10.000                                              
+    ##  Medium for online class Time spent on self study Time spent on fitness
+    ##  Length:1182             Min.   : 0.000           Min.   :0.0000       
+    ##  Class :character        1st Qu.: 2.000           1st Qu.:0.0000       
+    ##  Mode  :character        Median : 2.000           Median :1.0000       
+    ##                          Mean   : 2.912           Mean   :0.7658       
+    ##                          3rd Qu.: 4.000           3rd Qu.:1.0000       
+    ##                          Max.   :18.000           Max.   :5.0000       
+    ##  enoughsleep Time spent on social media Prefered social media platform
+    ##  No :226     Min.   : 0.000             Length:1182                   
+    ##  Yes:956     1st Qu.: 1.000             Class :character              
+    ##              Median : 2.000             Mode  :character              
+    ##              Mean   : 2.366                                           
+    ##              3rd Qu.: 3.000                                           
+    ##              Max.   :10.000                                           
+    ##  Number of meals per day Change in your weight Health issue during lockdown
+    ##  Min.   :1.000           Length:1182           Length:1182                 
+    ##  1st Qu.:2.000           Class :character      Class :character            
+    ##  Median :3.000           Mode  :character      Mode  :character            
+    ##  Mean   :2.918                                                             
+    ##  3rd Qu.:3.000                                                             
+    ##  Max.   :8.000                                                             
+    ##  Stress busters     Time utilized     
+    ##  Length:1182        Length:1182       
+    ##  Class :character   Class :character  
+    ##  Mode  :character   Mode  :character  
+    ##                                       
+    ##                                       
+    ##                                       
+    ##  Do you find yourself more connected with your family, close friends , relatives  ?
+    ##  Length:1182                                                                       
+    ##  Class :character                                                                  
+    ##  Mode  :character                                                                  
+    ##                                                                                    
+    ##                                                                                    
+    ##                                                                                    
+    ##  What you miss the most
+    ##  Length:1182           
+    ##  Class :character      
+    ##  Mode  :character      
+    ##                        
+    ##                        
+    ## 
+
+*For dataset 1, losingsleep, we see that the mean age of the students
+who engaged in the survey is about 16 years of age, and that a greater
+majority of participants believe they get at least 7 hours of sleep (296
+students), while about half believe they do not (150 students). For
+dataset 2, we have a lot more descriptive statistics due to the greater
+amount of variables in this dataset. We can note that the average age of
+the participants of dataset “Student MH” is about 20 years of age.
+Similar to the first dataset, we see that a greater amount of
+participants believe they get enough - 7 hrs- of sleep (956
+participants), while a small minority believe they do not (226
+participants).*
+
+*I focused on summarizing these two variables, age and enough sleep,
+because they are the focus of my study, but something interesting to
+note is that students of the second dataset averaged about 3 hrs of self
+study and a mean of 2.4 hours on social media, indicating that almost
+the same time is spent on studies and social media. I think it would be
+interesting to see how these variables impact whether a student recieves
+7 hours of sleep a night.*
 
 ------------------------------------------------------------------------
 
