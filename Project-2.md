@@ -1,4 +1,4 @@
-Project 2: An Analysis on Professors
+Project 2: An Analysis on College Professors
 ================
 Lupita Navarro
 5/10/2021
